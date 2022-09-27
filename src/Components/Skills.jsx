@@ -8,6 +8,8 @@ import ReactImg from '../assets/images/react.png'
 import ReduxImg from '../assets/images/redux.svg'
 import BootstrapImg from '../assets/images/bootstrap-5.svg'
 import PhotoshopImg from '../assets/images/photoshop.svg'
+import VercelImg from '../assets/images/vercel.svg'
+import MuiImg from '../assets/images/mui.svg'
 import ReduxSagaImg from '../assets/images/redux-saga-EDIT.png'
 import Firebase from '../assets/images/firebase.png'
 import Typescript from '../assets/images/typescript.png'
@@ -33,9 +35,9 @@ const Skills = () => {
           <Skillname name={ReduxSagaImg} title="Redux-Saga" />
           <Skillname name={BootstrapImg} title="Bootstrap" />
           <Skillname name={Firebase} title="Firebase" />
-          <Skillname name={Typescript} title="Typescript" />
+          <Skillname name={VercelImg} title="Vercel" />
           <Skillname name={GitHub} title="Git-Hub" />
-          <Skillname name={PhotoshopImg} title="Photoshop" />
+          <Skillname name={MuiImg} title="Meterial UI" />
         </div>
       </div>
     </div>
