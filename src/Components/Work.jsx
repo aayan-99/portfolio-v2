@@ -55,7 +55,7 @@ const Work = () => {
                                 Air Bnb Clone using NEXT.Js
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="air-bnb-clone-aayan-99.vercel.app/" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Demo</button></a>
+                                <a href="https://air-bnb-clone-aayan-99.vercel.app/" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Demo</button></a>
                                 <a href="https://github.com/aayan-99/air-bnb-clone" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Code</button></a>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ const Work = () => {
                                 Crypto tracking website using ReactJs
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="alpha-oryx.vercel.app" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Demo</button></a>
+                                <a href="https://alpha-oryx.vercel.app" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Demo</button></a>
                                 <a href="https://github.com/aayan-99/alpha-oryx" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Code</button></a>
                             </div>
                         </div>
