@@ -6,6 +6,8 @@ import Tailwind from '../assets/images/tailwind.png'
 import JS from '../assets/images/javascript.png'
 import ReactImg from '../assets/images/react.png'
 import ReduxImg from '../assets/images/redux.svg'
+import NextImg from '../assets/images/nextjs.svg'
+import RecoilImg from '../assets/images/recoil.svg'
 import BootstrapImg from '../assets/images/bootstrap-5.svg'
 import PhotoshopImg from '../assets/images/photoshop.svg'
 import VercelImg from '../assets/images/vercel.svg'
@@ -25,14 +27,14 @@ const Skills = () => {
           <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
           <p className='py-4'>// These are the technologies I work with.</p>
         </div>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+        <div className='w-full grid-cols-1 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center py-8'>
           <Skillname name={HTML} title="HTML" />
           <Skillname name={CSS} title="CSS" />
           <Skillname name={Tailwind} title="TailwindCSS" />
           <Skillname name={JS} title="Javascript" />
           <Skillname name={ReactImg} title="ReactJs" />
-          <Skillname name={ReduxImg} title="Redux" />
-          <Skillname name={ReduxSagaImg} title="Redux-Saga" />
+          <Skillname name={RecoilImg} title="Recoil" />
+          <Skillname name={NextImg} title="NEXT.Js" />
           <Skillname name={BootstrapImg} title="Bootstrap" />
           <Skillname name={Firebase} title="Firebase" />
           <Skillname name={VercelImg} title="Vercel" />

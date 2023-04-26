@@ -1,6 +1,8 @@
 import React from 'react'
 import Netflix from '../assets/images/netflix.png'
 import NukeMusix from '../assets/images/nukemusix.png'
+import AirBnb from '../assets/images/air-bnb-clone.png'
+import Crypto from '../assets/images/crypto.jpg'
 
 const Work = () => {
     return (
@@ -12,7 +14,7 @@ const Work = () => {
                 </div>
 
                 {/* Container */}
-                <div className='grid sm:grid-cols-2 gap-4'>
+                <div className='grid sm:grid-cols-2 gap-10'>
 
                     {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${Netflix})` }} className='shadow-lg shadow-[040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
@@ -36,6 +38,36 @@ const Work = () => {
                         <div className='opacity-0 group-hover:opacity-100 p-4'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
                                 ReactJs Music Player Application
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://nukemusix.vercel.app/" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Demo</button></a>
+                                <a href="https://github.com/aayan-99/nukemusix" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Code</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Grid Item */}
+                    <div style={{ backgroundImage: `url(${AirBnb})` }} className='shadow-lg shadow-[040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 p-4'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Air Bnb Clone using NEXT.Js
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://nukemusix.vercel.app/" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Demo</button></a>
+                                <a href="https://github.com/aayan-99/nukemusix" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Code</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Grid Item */}
+                    <div style={{ backgroundImage: `url(${Crypto})` }} className='shadow-lg shadow-[040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 p-4'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Crypto tracking website using ReactJs
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://nukemusix.vercel.app/" target='_blank' rel='noreferrer'><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold tect-lg'>Demo</button></a>
